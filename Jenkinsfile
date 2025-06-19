@@ -21,7 +21,7 @@ pipeline {
 
     stage('Install Dependencies') {
       steps {
-        sh 'npm install'
+        sh 'npm install --fetch-timeout=60000'
       }
     }
 
