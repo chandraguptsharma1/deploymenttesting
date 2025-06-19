@@ -5,7 +5,7 @@ pipeline {
     DOCKER_HUB_USER = 'samchandra1100'
     IMAGE_NAME = 'deploymenttesting'
     IMAGE_TAG = 'latest'
-    DOCKER_IMAGE = "${DOCKER_HUB_USER}/${IMAGE_NAME}:${IMAGE_TAG}"
+    DOCKER_IMAGE = "${DOCKER_HUB_USER}/${IMAGE_NAME}:${IMAGE_TAG}" ///
   }
 
   triggers {
